@@ -41,8 +41,15 @@ Then in the R console, execute the commands:
 install.packages(c("units", "sf"))
 ```
 #### For Windows 
-
-You will be prompted to download sf from source, click on No 
+Make sure to have Rtools installed 
+```R
+install.packages("Rtools")
+```
+then run the command 
+```R
+install.packages("sf")
+```
+You may be prompted to download sf from source or binary, click on No 
 
 ### Data Acquisition and Preparation (Run Once) 
 
