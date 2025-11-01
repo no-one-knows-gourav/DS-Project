@@ -2,6 +2,7 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(markdown)
+library(sf)
 # Note: tidyverse & reshape2 will be loaded by analysis.R
 
 # 2. PRE-PROCESSING: (RUNS ONCE AT STARTUP)
