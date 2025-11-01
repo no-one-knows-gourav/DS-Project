@@ -19,13 +19,27 @@ System must have the following packages installed:
 - httr 
 - jsonlite 
 - tidyverse 
-- reshape2 
+- reshape2
+- sf
 
 You may want to run the following command in the console of the parent directory 
 
 ```R 
-install.packages(c("shiny", "ggplot2", "dplyr", "markdown", "rvest", "httr", "jsonlite", "tidyverse", "reshape2"))
-``` 
+install.packages(c("shiny", "ggplot2", "dplyr", "markdown", "rvest", "httr", "jsonlite", "tidyverse", "reshape2", "sf"))
+```
+
+**Note:** installing sf may be complicated if R is configured to install from source, in case the above installation throws a non-zero exit status for sf, follow the below instructions: 
+
+#### For Mac Users: 
+
+Run the following commands in the terminal: 
+```bash
+brew install gdal geom proj udunits
+```
+Then in the R console, execute the commands: 
+```R
+install.packages(c("units", "sf"))
+```
 
 ### Data Acquisition and Preparation (Run Once) 
 
