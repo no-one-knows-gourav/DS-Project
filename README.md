@@ -30,7 +30,7 @@ install.packages(c("shiny", "ggplot2", "dplyr", "markdown", "rvest", "httr", "js
 
 **Note:** installing sf may be complicated if R is configured to install from source, in case the above installation throws a non-zero exit status for sf, follow the below instructions: 
 
-#### For Mac Users: 
+#### For MacOS 
 
 Run the following commands in the terminal: 
 ```bash
@@ -40,6 +40,9 @@ Then in the R console, execute the commands:
 ```R
 install.packages(c("units", "sf"))
 ```
+#### For Windows 
+
+You will be prompted to download sf from source, click on No 
 
 ### Data Acquisition and Preparation (Run Once) 
 
