@@ -46,4 +46,9 @@ in the console
 shiny::runApp("app") 
 ``` 
 
+### Dashboard URL 
+
+The dashboard can be accessed via the following link. The Dashboard has been deployed on ShinyApps.io 
+
+https://no-one-knows-gourav.shinyapps.io/nvi_analysis/ 
 
